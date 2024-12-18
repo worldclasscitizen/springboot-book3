@@ -1,6 +1,9 @@
 import java.time.LocalDate;
 
-// DAO(data access object): 데이터 접근 객체
+/*
+    DAO(data access object): 데이터 접근 객체
+    - 객체를 식별하는 일종의 ID가 필요하다.
+*/
 public class BankTransactionDAO {
 
     public BankTransaction create(final LocalDate date, final double amount, final String description) {
