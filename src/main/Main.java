@@ -1,3 +1,9 @@
+package main;
+
+import main.java.BankStatementAnalyzer;
+import main.java.BankStatementCSVParser;
+import main.java.BankStatementParser;
+
 import java.io.IOException;
 
 public class Main {
